@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addcomment</title>
+    <link rel="stylesheet" href="static/css/pinglun.css">
+    <link rel="stylesheet" href="static/css/stytlePlayer.css">
+</head>
+<body onload="gettime()">
+<div class="moment-content" style="padding-left: 50px">
+    <!--左侧好友头像-->
+    <div class="moment-content-left">
+        <img src="static/img/pinglun/头像1.jpg" height="132" width="132"/>
+    </div>
+    <!--右侧消息-->
+    <div class="moment-content-right">
+        <!--用户名和信息-->
+        <div class="moment-content-username">用户1&nbsp;&nbsp;&nbsp;&nbsp; <font class="moment-function-time" id="time"></font></div>
+        <div class="moment-content-text"><div id="wad"></div></div>
+        <div style="clear: both">&nbsp;</div>
+        <div class="upvotes-img" style="float: left"></div>  <!--心形-->
+        <div class="comment-content">赞&nbsp;&nbsp;&nbsp;<img src="static/img/pinglun/回复.png" height="33" width="22"/>回复</div>
+    </div>
+<!--    <script>-->
+<!--        // 获取当前时间-->
+<!--        var datenow=new Date();-->
+<!--        var year=datenow.getFullYear();-->
+<!--        var month=datenow.getMonth();-->
+<!--        var day=datenow.getDate();-->
+<!--        var f=document.getElementById("datenow");-->
+<!--        function gettime(){-->
+<!--            time=year+"/"+month+"/"+day;-->
+<!--            f.innerText=time;-->
+<!--            console.log(time)-->
+<!--        }-->
+<!--    </script>-->
+    <script type="text/javascript">
+        var t=new Date();
+        var year=t.getFullYear();
+        var month=t.getMonth()+1;
+        var day=t.getDate();
+        var showtime=year + "/" + month + "/" + day;
+        var f=document.getElementById("time");
+
+        function gettime(){
+            f.innerHTML += showtime;
+        }
+    </script>
+    <script>
+        let Text = document.getElementById("text"),
+            Tup = document.getElementById("tup"),
+            Pl = document.getElementById("wad");
+        Tup.onclick = function () {
+            Li = "<p>" + Text.innerHTML + "</p>";
+            Text.innerHTML = "";
+            Pl.innerHTML += Li;
+        };
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+#cont{
+    width: 1200px;
+    height: 345px;
+    /*border: red 1px solid;*/
+    position: absolute;
+    left: 160px;
+    top: 150px;
+    background-color:rgba(192,192,192,0.1);
+}

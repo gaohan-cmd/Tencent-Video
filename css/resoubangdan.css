@@ -1,0 +1,27 @@
+.resoubangdan{
+    height: 500px;
+    width: 300px;
+    border: red solid 1px;
+    margin-top: 50px;
+    margin-left: 1050px;
+    position: absolute;
+}
+.resoubangdan-top{
+    width: 100%;
+    height: 70px;
+    border: red solid 1px;
+}
+.resoubangdan-center{
+    width: 100%;
+    height: 460px;
+    border: red solid 1px;
+    margin-top: 10px;
+}
+.resoubangdan-center-1{
+    border: forestgreen solid 1px;
+    width: 100%;
+    height: 30px;
+}
+.resoubangdan-center-2{
+
+}

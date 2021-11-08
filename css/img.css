@@ -1,0 +1,247 @@
+.img{
+    width: 180px;
+    height: 290px;
+    float: left;
+    margin-right: 18px;
+    /*border: solid black;*/
+    /*position: absolute;*/
+
+}
+.imgup{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/5.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/5.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup1{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/1.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup1:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/1.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup2{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/2.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup2:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/2.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup3{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/3.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup3:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/3.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup4{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/4.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup4:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/4.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup5{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/6.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup5:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/6.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup7{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/7.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup7:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/7.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup8{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/8.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup8:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/8.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup9{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/9.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup9:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/9.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup10{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/10.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup10:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/10.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup11{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/11.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup11:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/11.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup12{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/12.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup12:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/12.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup13{
+    width: 180px;
+    height: 235px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/13.1.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+.imgup13:hover{
+    width: 198px;
+    height: 258px;
+    /*border: solid green;*/
+    background: url(../pindaoimg/13.2.png) no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.imgcenter{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+}
+
+
+.imgcenter:hover{
+    /*float: left;*/
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+}
+.imgbot{
+    font-size: 12px;
+    color: #9d9d9d;
+    position: absolute;
+    margin-top: 30px;
+}
+
+
+.imgbot:hover{
+    /*float: left;*/
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}

@@ -1,0 +1,45 @@
+.hang{
+    float: left;
+    width: 1200px;
+    height: 67px;
+    /*border: black solid 1px;*/
+    position: absolute;
+    border-bottom: 1px solid #eeeeee;
+}
+.hang-left{
+    float: left;
+    width: 60px;
+    height: 31px;
+    background-color: #5e5e5e;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 13px ;
+    color: whitesmoke;
+}
+
+.hang-right {
+    /*border: black solid 1px;*/
+    border-bottom: 1px solid #eeeeee;
+    /*float: left;*/
+    width: 1100px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 128px;
+    text-align: left;
+    top: 20px;
+}
+.sin{
+    float: left;
+    font-size: 14px;
+    color: #9d9d9d;
+}
+.sin:hover{
+    /*float: left;*/
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/sou1.css">
+    <script src="jquery/jquery.js"></script>
+    <link rel="stylesheet" href="css/sou2.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/resoubangdan.css">
+
+
+</head>
+<body background="" style="background-repeat: no-repeat;background-attachment:fixed;background-size: 100% 100%;overflow-x:hidden" >
+
+<div style="position: fixed;top: 0;left: 0;width: 100%;z-index: 999">
+    <table width="100%">
+        <div style="background-color:rgb(15, 15, 30) " >
+            <tr class="din" style="background-color:rgb(15, 15, 30);width: 100%">
+                <td>
+                    <table>
+                        <tr>
+                            <td align="center" width="100px"><a class="con" href="kanguo.html" style="color: rgb(15, 15, 30)">看过</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="padding-right: 100px">
+                        <tr>
+                            <td><a href="#"><img src="static/img/腾讯视频log.png" height="108" width="408"/></a></td>
+                            <td align="center" width="100px"><a href="index.html" class="con" style="color: white;text-decoration: none">首页</a></td>
+                            <td align="center"><a href="#" class="con" style="color: white;text-decoration: none">频道</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input id =obj1 type="text" name="" placeholder="关于我妈的一切" /><br/></td>
+                            <td><input type="submit" name="" value="热搜榜" /><br/></td>
+                            <!--                            <td><input type="submit" name="" value="全网搜" /><br/></td>-->
+                            <td><button onclick="f1()" type="button" class="btn btn-danger">全网搜</button></td>
+                            <script type="text/javascript">
+                                function f1() {
+                                    var v = document.getElementById("obj1");
+                                    if(v.value.charCodeAt()=='关于我妈的一切'.charCodeAt()){
+                                        location.href = "sousuo.html";
+                                    }else{
+                                        location.href = "https://blog.csdn.net/weixin_39988930/article/details/117836792";
+                                    }
+                                }
+                            </script>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td align="center" width="100px"><a style="color: white" class="con" href="kanguo.html">看过</a></td>
+                            <td align="center" width="100px"><a style="color: white" class="con" href="denglu.html">注册/登录</a></td>
+                            <td align="center" width="100px"><a style="color: white" class="con" href="kanguo.html">个人中心</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </div>
+    </table>
+</div>
+
+<div id="sou1">
+    <div class="sou1-left">全部</div>
+    <!--<script>
+        $(document).ready(function (){
+            $("div").click(function (){
+                $(this).toggleClass("getdiv");
+            });
+        });
+    </script>-->
+    <div class="sou1-left">用户</div>
+    <div class="sou1-left">
+        <script type="text/javascript">
+            function xx(){
+                var obt=document.getElementById("bt");
+                var odiv=document.getElementById("div1");
+
+                if(odiv.style.display=="none"){
+                    odiv.style.display="block";
+                    obt.value="筛选^";
+                }
+                else{
+                    odiv.style.display="none";
+                    obt.value="筛选↓";
+                }
+
+            }
+        </script>
+        <input type="button" id="bt" value="筛选^" onclick="xx()"/>
+
+        <div id="div1" style="z-index: 99">
+            <div class="sou1-center">最相关</div>
+            <div class="sou1-center">全部频道</div>
+            <div class="sou1-center">不限时长</div>
+            <div class="sou1-center">不限日期</div>
+            <div class="sou1-center-right1">
+                <div class="sou1-center-right-text">最新</div>
+                <div class="sou1-center-right-text">最热</div>
+            </div>
+            <div class="sou1-center-right2">
+                <div class="sou1-center-right-text">电视剧</div>
+                <div class="sou1-center-right-text">电影</div>
+                <div class="sou1-center-right-text">综艺</div>
+                <div class="sou1-center-right-text">动漫</div>
+                <div class="sou1-center-right-text">新闻</div>
+                <div class="sou1-center-right-text">娱乐</div>
+                <div class="sou1-center-right-text">音乐</div>
+                <div class="sou1-center-right-text">游戏</div>
+                <div class="sou1-center-right-text">教育</div>
+                <div class="sou1-center-right-text">母婴</div>
+                <div class="sou1-center-right-text">少儿</div>
+                <div class="sou1-center-right-text">其他</div>
+            </div>
+            <div class="sou1-center-right3">
+                <div class="sou1-center-right-text">0-10分钟</div>
+                <div class="sou1-center-right-text">10-30分钟</div>
+                <div class="sou1-center-right-text">30-60分钟</div>
+                <div class="sou1-center-right-text">60分钟以上</div>
+            </div>
+            <div class="sou1-center-right4">
+                <div class="sou1-center-right-text">一天</div>
+                <div class="sou1-center-right-text">一周</div>
+                <div class="sou1-center-right-text">两周</div>
+                <div class="sou1-center-right-text">一个月</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <table style="border-collapse: separate;border-spacing: 0px 20px;background-color: rgb(248, 247, 243);margin-top: 200px;margin-left: 1030px;padding-top: 35px;padding-bottom: 25px">
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px" color=#FF4740>1</font></td>
+            <td style="padding-right: 150px">
+                <div style="padding-top: 15px"><a href=""><font size="4px">突围</font></a></div>
+                <div><font class="list">靳东闫妮揭5亿巨款之谜</font></div>
+            </td>
+            <td style="padding-right: 20px"><font class="list">更新至27集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px" color=#FF4740>2</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font>嘉南传</font></a></div>
+                <div><font class="list">鞠婧祎曾舜晞郡主爱上侍卫</font></div>
+            </td>
+            <td><font class="list">更新至24集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px" color=#FF4740>3</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font>只是结婚的关系</font></a></div>
+                <div><font class="list">王玉文王子奇先婚后爱</font></div>
+            </td>
+            <td><font class="list">更新至22集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px">4</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font>前行者</font></a></div>
+                <div><font class="list">潜伏原著作者最新力作</font></div>
+            </td>
+            <td><font class="list">更新至29集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px">5</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font>我的傻白甜媳妇</font></a></div>
+                <div><font class="list">赘婿竟是大佬？</font></div>
+            </td>
+            <td><font class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全61集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px">6</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font>扫黑风暴</font></a></div>
+                <div><font class="list">孙红雷张艺兴惩黑除恶</font></div>
+            </td>
+            <td><font class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全28集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px">7</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font>你是我的荣耀</font></a></div>
+                <div><font class="list">杨洋迪丽热巴共谱浪漫爱情</font></div>
+            </td>
+            <td><font class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全32集</font></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 15px;padding-right: 20px"><font size="6px">8</font></td>
+            <td>
+                <div style="padding-top: 10px"><a href=""><font class>国子监来了个女弟子</font></a></div>
+                <div><font class="list">赵露思许凯驰演绎另类师徒</font></div>
+            </td>
+            <td><font class="list">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全30集</font></td>
+        </tr>
+    </table>
+    <!--<div class="resoubangdan">
+        <div class="resoubangdan-top">
+            <a style="font-size: 20px;font-weight: bold;float: left">热搜榜单</a>
+            <div style="text-align: right"><a class="a2" style="font-size: 12px;">更多></a></div>
+            <div class="resoubangdan-center">
+                <div class="resoubangdan-center-1"></div>
+                <div class="resoubangdan-center-2"></div>
+            </div>
+        </div>
+    </div>-->
+</div>
+
+<div class="sou0">
+    <div class="sou0-left"></div>
+    <div class="sou2-right">
+        <div class="sou2-right-top"><a class="a1"><b style="color: coral;">关于我妈的一切</b><a class="a1" style="font-size: 15px;margin-top: 5px ;color: #9d9d9d;margin-left: 10px">(普通话/原版/2021)电影</a></a></div>
+        <div class="sou2-right-mid">
+            <div class="sou2-right-mid-1">时间：<a class="a1" style="font-size: 12px;margin-top: 5px ;color: black">昨天</a></div>
+            <div class="sou2-right-mid-2">上传者：</div><a class="a1" style="font-size: 12px;margin-top: 5px">小萌萌影视</a>
+            <div class="sou2-right-mid-1">主　演：<a class="a1" style="font-size: 12px;margin-top: 5px">徐帆 </a><a class="a1" style="font-size: 12px;margin-top: 5px">张婧仪 </a><a class="a1" style="font-size: 12px;margin-top: 5px">许亚军 </a><a class="a1" style="font-size: 12px;margin-top: 5px">张歆艺 </a><a class="a1" style="font-size: 12px;margin-top: 5px">陈明昊 </a></div>
+
+        </div>
+        <div class="sou2-right-end">简　介：李小美一直想要挣脱母亲的掌控，只身一人来到北京闯荡，却并没有闯出什么名堂，工作、生活、爱情都不尽如人意，因为母亲突然的探视，两人开始了矛盾重重的生活，直到那天，突然传来噩耗，李小美突然发现自己对妈妈似乎并不了解……</div>
+        <div class="sou0-right">
+            <div class="bofang" ></div>
+            <button class="sou0-bt">立即播放</button>
+        </div>
+    </div>
+</div>
+<div class="sou2">
+    <div class="sou2top">
+        <div class="sou2-left">
+            <div class="shijian">0:01:03</div>
+        </div>
+        <div class="sou2-right">
+            <div class="sou2-right-top"><a class="a1">宝贝，妈妈等不了了，妈妈只是想在最后的时光多陪陪你破大防了</a></div>
+            <div class="sou2-right-mid">
+                <div class="sou2-right-mid-1">时间：<a class="a1" style="font-size: 12px;margin-top: 5px ;color: black">昨天</a></div>
+                <div class="sou2-right-mid-2">上传者：</div><a class="a1" style="font-size: 12px;margin-top: 5px">小萌萌影视</a>
+            </div>
+            <div class="sou2-right-end">简　介： 宝贝，妈妈等不了了，妈妈只是想在最后的时光多陪陪你破大防了</div>
+        </div>
+    </div>
+
+    <div class="sou2top">
+        <div class="sou2-left2">
+            <div class="shijian">0:01:49</div>
+        </div>
+        <div class="sou2-right">
+            <div class="sou2-right-top"><a class="a1">爱到什么程度才能做出这样的决定  <b style="color: coral;">关于我妈的一切</b></a></div>
+            <div class="sou2-right-mid">
+                <div class="sou2-right-mid-1">时间：<a class="a1" style="font-size: 12px;margin-top: 5px ;color: black">2021-09-16</a></div>
+                <div class="sou2-right-mid-2">上传者：</div><a class="a1" style="font-size: 12px;margin-top: 5px">小萌萌影视</a>
+            </div>
+            <div class="sou2-right-end">简　介： 爱到什么程度才能做出这样的决定     关于我妈的一切</div>
+        </div>
+    </div>
+
+    <div class="sou2top">
+        <div class="sou2-left3">
+            <div class="shijian">0:01:53</div>
+        </div>
+        <div class="sou2-right">
+            <div class="sou2-right-top"><a class="a1">请珍惜眼前人，看到最后我破防了#<b style="color: coral;">关于我妈的一切</b>#<b style="color: coral;">关于我妈的一切</b>戳心了</a></div>
+            <div class="sou2-right-mid">
+                <div class="sou2-right-mid-1">时间：<a class="a1" style="font-size: 12px;margin-top: 5px ;color: black">2021-08-04</a></div>
+                <div class="sou2-right-mid-2">上传者：</div><a class="a1" style="font-size: 12px;margin-top: 5px">小萌萌影视</a>
+            </div>
+            <!--                <div class="sou2-right-end">简　介： 这个回怼太爽了</div>-->
+        </div>
+    </div>
+
+    <div class="sou2top">
+        <div class="sou2-left4">
+            <div class="shijian">0:02:03</div>
+        </div>
+        <div class="sou2-right">
+            <div class="sou2-right-top"><a class="a1">这个回怼太爽了</a></div>
+            <div class="sou2-right-mid">
+                <div class="sou2-right-mid-1">时间：<a class="a1" style="font-size: 12px;margin-top: 5px ;color: black">昨天</a></div>
+                <div class="sou2-right-mid-2">上传者：</div><a class="a1" style="font-size: 12px;margin-top: 5px">小萌萌影视</a>
+            </div>
+            <div class="sou2-right-end">简　介： 这个回怼太爽了</div>
+        </div>
+    </div>
+
+    <div class="sou2top">
+        <div class="sou2-left5">
+            <div class="shijian">0:01:43</div>
+        </div>
+        <div class="sou2-right">
+            <div class="sou2-right-top"><a class="a1">平时只会要钱的混蛋舅舅，知道姐姐得癌症后竟这样做！#<b style="color: coral;">关于我妈的一切</b></a></div>
+            <div class="sou2-right-mid">
+                <div class="sou2-right-mid-1">时间：<a class="a1" style="font-size: 12px;margin-top: 5px ;color: black">2021-09-14</a></div>
+                <div class="sou2-right-mid-2">上传者：</div><a class="a1" style="font-size: 12px;margin-top: 5px">小萌萌影视</a>
+            </div>
+            <div class="sou2-right-end">简　介： 宝贝，妈妈等不了了，妈妈只是想在最后的时光多陪陪你破大防了</div>
+        </div>
+    </div>
+    <div style="font-weight: bold;font-size: 20px;margin-top: 40px">相关搜索</div>
+
+    <div class="sou2-end">
+        <div class="sou2-end-center">
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>关于我妈的一切首映
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>我妈的一切
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>《关于我妈的一切》预告
+            </div>
+        </div>
+        <div class="sou2-end-center">
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>我的姐姐
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>了不起的老爸
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>我的姐姐国语版
+            </div>
+        </div>
+        <div class="sou2-end-center">
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>关于妈妈的一切
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>徐帆
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>我和我妈的一切
+            </div>
+        </div>
+        <div class="sou2-end-center">
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>妈妈的神奇小子
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>关于我妈妈的一切
+            </div>
+            <div class="sou2-end-center-text">
+                <b style="font-size: 20px;color: #A2A2B6">·</b>神奇小子
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="tubiao"></div>
+</body>
+</html>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            margin-left: 30px;
+            width: 450px;
+            height: 800px;
+            /*border: 1px solid red;*/
+            display: inline-block;
+        }
+        #d1{
+            margin-left: 600px;
+            margin-bottom: 800px;
+            width: 400px;
+            height: 700px;
+            border: 1px solid red;
+        }
+        #d2{
+            margin-left: 600px;
+            margin-bottom: 800px;
+            width: 400px;
+            height: 700px;
+            border: 1px solid red;
+        }
+    </style>
+    <style type="text/css" >
+        ol{
+            font-size:17px;
+        }
+    </style>
+    <style>
+        span{
+            font-size:20px ;
+        }
+        span2{
+            font-size: 12px;
+        }
+        span3{
+            color: red;
+        }
+    </style>
+    <link rel="stylesheet" href="css/resou-top.css">
+    <link rel="stylesheet" href="css/sou2.css">
+
+</head>
+<body>
+<!--<div class="toptitle">-->
+    <table  ellpadding="10" cellspacing="8"style="position: absolute;position: fixed;background-color: white;" >
+        <tr>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="4"><img src="static/img/3.png" height="40" width="150"/></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">精选</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">电视剧</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">电影</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">综艺</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">动漫</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">少儿</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">纪录片</a></td>
+            <td align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">VIP会员</a></td>
+            <td colspan="2"align="center" valign="top"><a class="resou-top" href="#" style="text-decoration: none;">全部 </a><img src="static/img/2.png" height="18" width="18" align="center"/></td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td colspan="12">
+                <form action="/demo/demo_form.asp">
+                    <input type="text" id =obj1 name="firstname" placeholder="王思聪不再担任香蕉娱乐" style="width: 250px;height: 36px;border-top-left-radius: 15px;border-bottom-left-radius: 15px;border-right: none;border-color: #FF5C38">
+                    <button button onclick="f1()" type="button"  style="position:relative;top: 1px;left: -10px;width: 100px;height: 44px;border-bottom-right-radius: 15px;border-top-right-radius: 20px;border-left: none;background-color: #FF5C38;border: none">全网搜</button>
+                    <script type="text/javascript">
+                        function f1() {
+                            var v = document.getElementById("obj1");
+                            console.log(v.value.charCodeAt()=='关于我妈的一切'.charCodeAt())
+                            console.log(v.value)
+                            if(v.value.charCodeAt()=='关于我妈的一切'.charCodeAt()){
+                                location.href = "sousuo.html";
+                            }else{
+                                location.href = "https://blog.csdn.net/weixin_39988930/article/details/117836792";
+                            }
+                        }
+                    </script>
+                </form>
+            </td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;&nbsp;</td>
+    </table>
+</div>
+
+<img style="margin-top: 100px" src="static/img/1.png" height="220" width="1513d"/>
+<table border="0" ellpadding="1" cellspacing="30" width="100%"style="background-color: white;">
+    <tr>
+        <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        <td align="center"><a class="sin">热搜总榜</a></td>
+        <td align="center"><a class="sin">电视剧榜</a></td>
+        <td align="center"><a class="sin">电影榜</a></td>
+        <td align="center"><a class="sin">电影榜</a></td>
+        <td align="center"><a class="sin">动漫榜</a></td>
+        <td align="center"><a class="sin">少儿榜</a></td>
+        <td align="center"><a class="sin">纪录片榜</a></td>
+        <td align="center"><a class="sin">热搜榜</a></td>
+        <td align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+</table>
+<div>
+    <p>
+    <table border="0" cellspacing="25"width="100%" style="background-color: #F4F4F4;position: ">
+        <tr>
+            <td colspan="3" align="right"><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp总榜单</span></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td><span2>更多></span2></td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>1</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">斗罗大陆</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>2</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">奔跑吧 黄河篇 第二季</a></td>
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>3</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">突围</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>4</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">只是结婚的关系</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>5</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">一人之下 第四季</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>6</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">长津湖</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>7</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">嘉南传</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>8</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">斗破苍穹三年之约</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>9</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">德云斗笑社</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>10</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">2021英雄联盟全球总决赛</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+    </table>
+    </p>
+</div>
+<div>
+    <p>
+    <table border="0" cellspacing="25"width="100%" style="background-color: #F4F4F4">
+        <tr>
+            <td colspan="3" align="right"><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp电视剧</span></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td><span2>更多></span2></td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>1</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">突围</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>2</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">只是结婚的关系</a></td>
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>3</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">嘉南传</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>4</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">星辰大海</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>5</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">你是我的荣耀</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>6</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">扫黑风暴</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>7</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">前行者</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>8</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">斗罗大陆</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>9</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">将夜2</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>10</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">陈情令</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+    </table>
+    </p>
+</div>
+<div>
+    <p>
+    <table border="0" cellspacing="25"width="100%" style="background-color: #F4F4F4">
+        <tr>
+            <td colspan="3" align="right"><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp综艺</span></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td><span2>更多></span2></td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>1</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">青春</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>2</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">奔跑吧丶黄河篇 第二季</a></td>
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>3</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">导演请指教</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>4</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">德云斗笑社</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>5</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">王牌对王牌精编版</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>6</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">脱口秀大会</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>7</span3></td>
+            <td colspan="3"><a class="resou-top" href="#" style="text-decoration: none;">超星运动会</a></td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+            <td>&nbsp;&nbsp;</td>
+
+            <td>&spades;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>8</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">哈哈哈哈哈</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>9</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">我们的歌</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td align="center">&nbsp&nbsp&nbsp&nbsp&nbsp<span3>10</span3></td>
+            <td colspan="6"><a class="resou-top" href="#" style="text-decoration: none;">令人心动的offer</a></td>
+
+            <td>&hearts;</td>
+        </tr>
+    </table>
+    </p>
+</div>
+<div class="tubiao"></div>
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+/*评论存放的容器*/
+#box {
+    width: 850px;
+    margin: 0 auto;
+}
+#text {
+    width: 850px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border-radius: 8px;
+    border: 2px solid #e59a56;
+    overflow: hidden;
+}
+#tup {
+    float: right;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 60px;
+    height: 36px;
+    background-color: #e69b57;
+    font-size: 18px;
+    line-height: 36px;
+    border-radius: 6px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+#wad {
+    margin-top: 30px;
+    width: 800px;
+}
+#wad p {
+    font-size: 18px;
+    line-height: 24px;
+    border-bottom: 1px dashed #e69b57;
+    word-wrap: break-word;
+}

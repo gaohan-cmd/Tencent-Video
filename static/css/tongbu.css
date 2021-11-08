@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+a:hover{
+    color: rgb(247, 89, 53);
+}
+
+.list{
+   font-size: 80%;
+    color: rgb(153, 152, 150);
+}

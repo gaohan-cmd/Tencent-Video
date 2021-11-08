@@ -1,0 +1,168 @@
+a{
+    color: white;
+}
+.left{
+    font-family: 微软雅黑;
+    text-align: center;
+
+}
+
+#titile{
+    color: white;
+
+}
+
+#pingfen{
+    color: rgb(255, 92, 56);
+}
+/*播放器底部评分显示*/
+.dibushow{
+    color: rgb(159, 159, 165);
+}
+
+.dibushow:hover{
+    color: rgb(255, 92, 56);
+
+}
+
+/*播放界面点赞*/
+#zan1:hover{
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    background-color: rgb(250, 200, 47);
+    border: 1px solid #333;
+    border-radius: 50%;
+    left: 50%;
+}
+
+#zan2:hover{
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    background-color: rgb(110, 185, 97);
+    border: 1px solid #333;
+    border-radius: 50%;
+    left: 50%;
+}
+
+.zan{
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    background-color: #aaa;
+    border: 1px solid rgb(15, 15, 30);
+    border-radius: 50%;
+    left: 50%;
+}
+
+.tuijiantitle{
+    color: black;
+}
+
+/*排行榜更多*/
+#more{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+#more:hover{
+    color: rgb(255, 148, 124);
+    text-decoration: none;
+}
+
+/*排行榜介文字格式*/
+.paihanglist{
+    font-size: 80%;
+    color: black;
+}
+
+/*每个信息*/
+.moment-content{
+    width: 62%;
+    border-bottom: 1px solid #eeeeee;/*下边框*/
+    padding: 10px 0 14px 0;
+    display: flex;
+    justify-content: center;/*水平居中*/
+}
+/*左侧好友头像*/
+.moment-content-left{
+    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+.moment-content-left img{
+    margin-right: 6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 6%;
+}
+.moment-content-right{
+    width: 100%;
+    padding: 0 10px 0 4px;
+}
+/*用户名和信息*/
+.moment-content-username{
+    width: 100%;
+    font-weight: 700;
+    color: rgb(253, 4, 4);
+    margin-bottom: 4px;
+    float: left;
+}
+.moment-content-text{
+    width: 100%;
+    font-weight: 400;
+    color: rgb(75, 75, 75);
+    font-size: 12px;
+}
+
+/*回复区*/
+.moment-function-time{
+    font-weight: 300;
+    font-size: 12px;
+    width: 100px;
+    color: gray;
+
+}
+
+.comments-board{
+    background-color: #eeeeee;
+}
+
+/*心*/
+.upvotes-img{
+    height: 22px;
+    width: 22px;
+    background: url("../img/pinglun/赞.svg") no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+/*回复*/
+.reply-img{
+    height: 22px;
+    width: 22px;
+    background: url("../img/pinglun/回复.png") no-repeat;
+    background-size: 60%;
+    background-position: center;
+}
+
+/*评论区*/
+.comments{
+    min-height: 100px;
+}
+.comment{
+    line-height: 22px;
+    align-items: center;
+}
+.comment-name{
+    margin-left: 4px;
+    font-size: 12px;
+    color: rgb(75, 75, 75);
+    font-weight: 700;
+}
+.comment-content{
+    padding-left: 6px;
+    font-size: 12px;
+    color: #424242;
+    font-weight: 500;
+}

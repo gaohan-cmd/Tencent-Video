@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/cont.css">
+    <link rel="stylesheet" href="css/hang.css">
+    <link rel="stylesheet" href="css/lie.css">
+    <link rel="stylesheet" href="css/img.css">
+    <link rel="stylesheet" href="css/imghang.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/sou1.css">
+    <link rel="stylesheet" href="css/sou2.css">
+
+</head>
+<body background="" style="background-repeat: no-repeat;background-attachment:fixed;background-size: 100% 100%;overflow-x:hidden" >
+
+<div style="position: fixed;top: 0;left: 0;z-index: 99;width: 100%">
+    <table width="100%">
+        <div style="background-color:rgb(15, 15, 30) " >
+            <tr class="din" style="background-color:rgb(15, 15, 30);width: 100%">
+                <td>
+                    <table>
+                        <tr>
+                            <td align="center" width="100px"><a class="con" href="#" style="color: rgb(15, 15, 30)">看过</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table style="padding-right: 100px">
+                        <tr>
+                            <td><a href="#"><img src="static/img/腾讯视频log.png" height="108" width="408"/></a></td>
+                            <td align="center" width="100px"><a href="index.html" class="con" style="color: white;text-decoration: none">首页</a></td>
+                            <td align="center"><a href="#" class="con" style="color: white;text-decoration: none">频道</a></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input id =obj1 type="text" name="" placeholder="关于我妈的一切" /><br/></td>
+                            <td><input type="submit" name="" value="热搜榜" /><br/></td>
+                            <!--                            <td><input type="submit" name="" value="全网搜" /><br/></td>-->
+                            <td><button onclick="f1()" type="button" class="btn btn-danger">全网搜</button></td>
+                            <script type="text/javascript">
+                                function f1() {
+                                    var v = document.getElementById("obj1");
+                                    if(v.value.charCodeAt()=='关于我妈的一切'.charCodeAt()){
+                                        location.href = "sousuo.html";
+                                    }else{
+                                        location.href = "https://blog.csdn.net/weixin_39988930/article/details/117836792";
+                                    }
+                                }
+                            </script>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td align="center" width="100px"><a style="color: white" class="con" href="kanguo.html">看过</a></td>
+                            <td align="center" width="100px"><a style="color: white" class="con" href="denglu.html">注册/登录</a></td>
+                            <td align="center" width="100px"><a style="color: white" class="con" href="kanguo.html">个人中心</a></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </div>
+    </table>
+</div>
+
+<div id="cont">
+    <div id="lie">
+        <div class="lie-left">排序</div>
+        <div class="lie-left">类型</div>
+        <div class="lie-left">地区</div>
+        <div class="lie-left">年份</div>
+        <div class="lie-left">资费</div>
+    </div>
+    <div class="hang-right">
+        <div class="sin">最新</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">最热</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">好评</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">口碑好剧</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">高分好评</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">知乎高分</div>
+    </div>
+
+    <div class="hang-right">
+        <div class="sin">全部</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">偶像爱情</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">古装历史</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">玄幻史诗</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">都市生活</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">当代主旋律</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">罪案谍战</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">历险科幻</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">军旅抗战</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">喜剧</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">武侠江湖</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">青春校园</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+    </div>
+
+    <div class="hang-right">
+
+        <div class="sin">全部</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">内地</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">美国</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">英国</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">韩国</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">泰国</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">日本</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">中国香港</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">中国台湾</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">其他</div>
+
+    </div>
+
+    <div class="hang-right">
+        <div class="sin">全部</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2021</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2020</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2019</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2018</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2017</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2016</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2015</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2014</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2013</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2012</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2011</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">2010</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">其他</div>
+    </div>
+
+    <div class="hang-right">
+        <div class="sin">全部</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">免费</div>
+        <div class="sin">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="sin">会员</div>
+    </div>
+
+
+</div>
+<div class="zong">
+
+    <div class="imghang">
+        <div class="img">
+            <div class="imgup"></div>
+            <div class="imgcenter">梦见狮子</div>
+            <div class="imgbot">姚弛陈雨锶跨次元联动</div>
+        </div>
+
+        <div class="img">
+            <div class="imgup1"></div>
+            <div class="imgcenter">管你来自哪颗星
+               </div>
+            <div class="imgbot">
+                短剧版“星你”</div>
+        </div>
+        <div class="img">
+            <div class="imgup2"></div>
+            <div class="imgcenter">麻辣宿舍
+                </div>
+            <div class="imgbot">
+                毛骗团队新片爆笑来袭</div>
+        </div>
+        <div class="img">
+            <div class="imgup3"></div>
+            <div class="imgcenter">
+                和平之舟
+                </div>
+            <div class="imgbot">
+
+                陈坤张天爱演绎海上救援</div>
+        </div>
+        <div class="img">
+            <div class="imgup4"></div>
+            <div class="imgcenter">
+                柠檬树上你和我
+                </div>
+            <div class="imgbot">
+
+                醋精夫妇的酸甜爱恋</div>
+        </div>
+        <div class="img">
+            <div class="imgup5"></div>
+            <div class="imgcenter">新白蛇传
+                </div>
+            <div class="imgbot">
+                麻辣蛇妖尘缘未了</div>
+        </div>
+
+    </div>
+    <div class="imghang">
+        <div class="img">
+            <div class="imgup7"></div>
+            <div class="imgcenter">
+                滚动吧，小齿轮
+                </div>
+            <div class="imgbot">
+
+                职场社畜生存指南</div>
+        </div>
+
+        <div class="img">
+            <div class="imgup8"></div>
+            <div class="imgcenter">前行者
+                </div>
+            <div class="imgbot">
+                潜伏原著作者最新力作</div>
+        </div>
+        <div class="img">
+            <div class="imgup9"></div>
+            <div class="imgcenter">突围
+                </div>
+            <div class="imgbot">
+                靳东闫妮揭5亿巨款之谜</div>
+        </div>
+        <div class="img">
+            <div class="imgup10"></div>
+            <div class="imgcenter">
+                红旗渠
+                </div>
+            <div class="imgbot">
+
+                十年奋战造千里长渠</div>
+        </div>
+        <div class="img">
+            <div class="imgup11"></div>
+            <div class="imgcenter">
+                您好！母亲大人
+                </div>
+            <div class="imgbot">
+
+                董洁尹昉演绎感人母子情</div>
+        </div>
+        <div class="img">
+            <div class="imgup12"></div>
+            <div class="imgcenter">嘉南传
+                </div>
+            <div class="imgbot">
+                鞠婧祎曾舜晞郡主爱上侍卫</div>
+        </div>
+
+    </div>
+<!--    <div class="imghang">-->
+<!--        <div class="img">-->
+<!--            <div class="imgup13"></div>-->
+<!--            <div class="imgcenter">琅琊榜</div>-->
+<!--            <div class="imgbot">胡歌刘涛演绎惊魂权谋</div>-->
+<!--        </div>-->
+
+<!--        -->
+
+<!--    </div>-->
+</div>
+
+<div class="tubiao2"></div>
+
+</body>
+</html>

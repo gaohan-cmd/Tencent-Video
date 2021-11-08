@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/css/deng.css">
+</head>
+<body>
+ <table width="100%" border="0">
+     <tr><td class="p">更早
+     </td>
+         <td height="41.6px" class="o" width="100px">
+             <input name="Fruit" type="checkbox" value=" "  />过滤已看完
+         </td>
+         <td width="100px">
+             <button style="font-size: 10px;width: 100px;border: none;background-color: white;color: #999999" onclick="delAll()"><a class="bt">清除全部</a></button>
+             <script>
+                 function delAll(){
+                     document.getElementById('123').innerHTML="";
+                     document.getElementById('1234').innerHTML="";
+                     document.getElementById('12345').innerHTML="";
+                 }
+             </script>
+         </td>
+     </tr>
+     <tr><td colspan="3" height="219px" >
+<table>
+    <tr><td id="123" height="119px"><a href="#">  <img src="static/img/img_5.png" height="119" width="210"/></a></td></tr>
+    <tr><td id="1234" height="43px" > <a href="#" class="r" >罗布奥特曼 普通话 第01话</a></td></tr>
+    <tr><td id="12345" height="14px" class="o">观看不足%1</td> </tr>
+</table>
+     </td>
+          </tr>
+ </table>
+</body>
+</html>

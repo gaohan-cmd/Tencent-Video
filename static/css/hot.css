@@ -1,0 +1,8 @@
+.hot{
+    text-decoration: none;
+    color: black;
+}
+.hot:hover{
+    color: rgb(255, 148, 124);
+    text-decoration: none;
+}

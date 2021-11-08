@@ -1,0 +1,24 @@
+#lie{
+    width: 120px;
+    height: 344px;
+    /*border: black solid 1px;*/
+    position: absolute;
+    /*top: 20px;*/
+    /*margin-top: 20px;*/
+    margin: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+.lie-left{
+    float: left;
+    width: 60px;
+    height: 31px;
+    background-color: #5e5e5e;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 13px ;
+    color: whitesmoke;
+}

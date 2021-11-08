@@ -1,0 +1,31 @@
+.fenye2:after{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left: 8px solid #AFABAB;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.fbtm {
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    background-color: #aaa;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: 700px;
+}
+.fenye:before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-right: 8px solid #AFABAB;
+    position: relative;
+    top: 2px;
+    right: 10px;
+}
